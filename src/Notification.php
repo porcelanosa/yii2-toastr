@@ -1,6 +1,6 @@
 <?php
 
-namespace lavrentiev\widgets\toastr;
+namespace porcelanosa\widgets\toastr;
 
 class Notification extends NotificationBase
 {
