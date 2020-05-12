@@ -1,9 +1,9 @@
 <?php
 
-namespace lavrentiev\widgets\toastr;
+namespace porcelanosa\widgets\toastr;
 
 use yii\base\Widget;
-use yii\helpers\Html;
+use yii\bootstrap4\Html;
 use yii\helpers\Json;
 
 class NotificationBase extends Widget
