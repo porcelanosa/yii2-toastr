@@ -11,9 +11,7 @@
   },
   "authors": [
     {
-      "name": "Eugene Lavrentiev (RyanTedder)",
-      "email": "lavrentiev.e@gmail.com",
-      "homepage": "https://github.com/lavrentiev"
+      "name": "Eugene Lavrentiev (RyanTedder)"
     }
   ],
   "require": {
