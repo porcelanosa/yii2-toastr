@@ -1,8 +1,8 @@
 <?php
 
-namespace lavrentiev\widgets\toastr;
+namespace porcelanosa\widgets\toastr;
 
-use yii\helpers\Html;
+use yii\bootstrap4\Html;
 use yii\helpers\Json;
 
 class NotificationFlash extends NotificationBase
