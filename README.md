@@ -11,19 +11,19 @@ Simple javascript toast notifications - Javascript library for non-blocking noti
 
 Установка расширения через Composer, выполнить следующую команду:
 ```
-composer require --prefer-dist lavrentiev/yii2-toastr
+composer require --prefer-dist porcelanosa/yii2-toastr
 ```
 или (master)
 ```
-composer require --prefer-dist lavrentiev/yii2-toastr "dev-master"
+composer require --prefer-dist porcelanosa/yii2-toastr "dev-master"
 ```
 или внести изменения в секцию `require` в `composer.json` и выполнить `composer update`
 ```
-"lavrentiev/yii2-toastr": "^2.0"
+"porcelanosa/yii2-toastr": "^2.0"
 ```
 или (master)
 ```
-"lavrentiev/yii2-toastr": "dev-master"
+"porcelanosa/yii2-toastr": "dev-master"
 ```
 
 ### Уведомления Notification::widget()
@@ -31,7 +31,7 @@ composer require --prefer-dist lavrentiev/yii2-toastr "dev-master"
 ![alt text](https://raw.githubusercontent.com/lavrentiev/yii2-toastr/master/screenshot/screenshot-1-2.png "Уведомления Notification::widget()")
 
 ```php
-use lavrentiev\widgets\toastr\Notification;
+use porcelanosa\widgets\toastr\Notification;
 
 Notification::widget([
     'type' => 'info',
@@ -110,13 +110,13 @@ Notification::widget([
 Подключение осуществляеться глобально допустим в layouts проекта.
 
 ```php
-<?= \lavrentiev\widgets\toastr\NotificationFlash::widget() ?>
+<?= \porcelanosa\widgets\toastr\NotificationFlash::widget() ?>
 ```
 
 Также присутствует возможность настройки уведомлений, по параметрам предусмотренным разработчиками [Toastr by CodeSeven](https://github.com/CodeSeven/toastr)
 
 ```php
-<?= \lavrentiev\widgets\toastr\NotificationFlash::widget([
+<?= \porcelanosa\widgets\toastr\NotificationFlash::widget([
     'options' => [
         "closeButton" => true,
         "debug" => false,
