@@ -1,13 +1,13 @@
 {
-  "name": "lavrentiev/yii2-toastr",
+  "name": "porcelanosa/yii2-toastr",
   "description": "Simple javascript toast notifications",
   "keywords": ["yii2", "extension", "jquery", "toastr", "notification"],
   "type": "yii2-extension",
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/lavrentiev/yii2-toastr",
+  "homepage": "https://github.com/porcelanosa/yii2-toastr",
   "support": {
-    "source": "https://github.com/lavrentiev/yii2-toastr",
-    "issues": "https://github.com/lavrentiev/yii2-toastr/issues"
+    "source": "https://github.com/porcelanosa/yii2-toastr",
+    "issues": "https://github.com/porcelanosa/yii2-toastr/issues"
   },
   "authors": [
     {
@@ -28,7 +28,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "lavrentiev\\widgets\\toastr\\": "src"
+      "porcelanosa\\widgets\\toastr\\": "src"
     }
   }
 }
