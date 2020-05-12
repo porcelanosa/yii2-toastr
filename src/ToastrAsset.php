@@ -1,6 +1,6 @@
 <?php
 
-namespace lavrentiev\widgets\toastr;
+namespace porcelanosa\widgets\toastr;
 
 use yii\web\AssetBundle;
 
